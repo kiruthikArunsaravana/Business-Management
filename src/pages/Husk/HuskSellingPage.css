@@ -1,0 +1,63 @@
+.husk-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.husk-container h2 {
+  margin-bottom: 20px;
+}
+
+.husk-error {
+  color: red;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.husk-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.husk-form select,
+.husk-form input,
+.husk-form button {
+  padding: 8px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.husk-form button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.husk-form button:hover {
+  background-color: #0056b3;
+}
+
+.husk-total {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.husk-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.husk-table th,
+.husk-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.husk-table th {
+  background-color: #f2f2f2;
+}

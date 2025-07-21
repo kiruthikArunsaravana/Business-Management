@@ -1,0 +1,45 @@
+.customer-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.customer-container h2 {
+  margin-bottom: 20px;
+}
+
+.customer-container form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.customer-container input,
+.customer-container button {
+  padding: 8px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.customer-container button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.customer-container button:hover {
+  background-color: #0056b3;
+}
+
+.customer-container .success {
+  color: green;
+  margin-bottom: 10px;
+}
+
+.customer-container .error {
+  color: red;
+  margin-bottom: 10px;
+}

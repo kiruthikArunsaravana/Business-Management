@@ -1,0 +1,88 @@
+.buying-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  min-height: 100vh;
+}
+
+.buying-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Error message */
+.buying-error {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Form styles */
+.buying-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.buying-form select,
+.buying-form input[type="number"],
+.buying-form input[type="date"] {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.buying-form button {
+  padding: 8px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  background: #28a745;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.buying-form button:hover {
+  background: #218838;
+}
+
+/* Total amount display */
+.buying-total {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Table styles */
+.buying-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.buying-table th,
+.buying-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.buying-table th {
+  background: #4caf50;
+  color: white;
+}
+
+.buying-table tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+.buying-table tr:hover {
+  background: #ddd;
+}

@@ -1,0 +1,25 @@
+.customer-list-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.customer-list-container h2 {
+  margin-bottom: 20px;
+}
+
+.customer-list-container table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.customer-list-container th,
+.customer-list-container td {
+  margin: 5px;
+  padding: 8px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+}
+
+.customer-list-container thead tr {
+  background-color: #ddd;
+}

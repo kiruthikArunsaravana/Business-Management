@@ -1,0 +1,64 @@
+.selling-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.selling-container h2 {
+  margin-bottom: 20px;
+}
+
+.selling-error {
+  color: red;
+  margin-bottom: 15px;
+}
+
+.selling-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.selling-form select,
+.selling-form input,
+.selling-form button {
+  padding: 8px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.selling-form button {
+  background: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.selling-form button:hover {
+  background: #45a049;
+}
+
+.selling-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.selling-table th,
+.selling-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.selling-table thead {
+  background: #f2f2f2;
+}
+
+.selling-table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.selling-table tr:hover {
+  background: #f1f1f1;
+}

@@ -1,0 +1,57 @@
+.shell-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.shell-container h2 {
+  margin-bottom: 20px;
+}
+
+.shell-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.shell-form select,
+.shell-form input,
+.shell-form button {
+  padding: 8px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.shell-form button {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.shell-form button:hover {
+  background-color: #1e7e34;
+}
+
+.shell-total {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.shell-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.shell-table th,
+.shell-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.shell-table th {
+  background-color: #f2f2f2;
+}
